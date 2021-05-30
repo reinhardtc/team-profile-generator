@@ -1,4 +1,5 @@
 const fs = require('fs');
+const pageTemplate = require('../src/page-template');
 
 const generatePage = answers => {
   return `<!DOCTYPE html>
